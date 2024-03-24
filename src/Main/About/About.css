@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+h1 h2 p{
+    padding: 0;
+    margin: 0;
+}
+
+.about-main{
+    margin-top: 4rem;
+    background-color: white;
+    width: 100vw;
+    height: 80vh;
+    color: black;
+    padding-top:2rem;
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading h1{
+    display: inline;
+    padding:0;
+    margin: 0;
+}
+#info{
+    background: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    margin:1rem;  
+}
+
+.about-brief{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-para{
+    margin: 3rem 1rem 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    flex-direction: column;
+}
+.about-para p{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    margin: 1rem 1rem 0 1rem;
+}
+.quotes{
+    width:1rem;
+    height: 1rem;
+    margin: 2px;
+    padding-bottom: 15px;
+}
+
+@media (min-width:768px) {
+    .about-heading{
+        font-size: 2rem;
+    }
+    #info{
+        width: 2.2rem;
+        height: 2.2rem;
+       
+    }
+    .about-brief{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    hr{
+        width: 70%;
+        align-self: center;
+       border: none;
+       height: 2px;
+       background:black;
+       margin: 10px;
+    }
+    .about-para{
+        padding: 1rem;
+    }
+    .about-para h1{
+        font-size: 5rem;
+    }
+
+    .about-para p{
+        font-size: 2rem;
+    }
+}

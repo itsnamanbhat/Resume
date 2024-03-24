@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+.footer-main{
+    background:black;   
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fIcon{
+    width:1rem;
+    height: 1rem;
+    border-radius: 90%;
+    background: white;
+    padding: 0.4rem;
+    margin: 0.7rem;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footer-links p{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+@media (min-width:768px) {
+    .footer-main{
+        flex-direction: row;
+        height: auto;
+    }
+
+    .fIcon{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    .footer-links{
+        align-items:center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    .footer-links p{
+        font-size: 1rem;
+        margin: 1.5rem;
+    }
+}
+

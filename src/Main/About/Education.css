@@ -1,0 +1,83 @@
+.ed-main {
+  display: flex;
+  /* height: 100vh; */
+  width: 100%;
+  flex-direction: column;
+}
+.ed-main h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+}
+.ed-main p {
+  font-size: 1.3rem;
+}
+.ed-header {
+  align-self: center;
+  margin: 3rem 0 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.ed-header img {
+  background: white;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 100%;
+}
+
+.ed-degree {
+  padding: 1rem;
+}
+
+.ed-puc {
+  padding: 1rem;
+}
+
+.ed-school {
+  padding: 1rem;
+}
+
+span {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .ed-main{
+        justify-content: center;
+    }
+  .ed-header {
+    font-size: 2rem;
+  }
+
+  .ed-header img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .education-container {
+    display: flex;
+    padding: 3rem;
+  }
+
+  .ed-common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .ed-common h2 {
+    font-size: 2rem;
+  }
+
+  .ed-common p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  span {
+    font-size :1.5rem;
+  }
+}

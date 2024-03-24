@@ -1,0 +1,49 @@
+.main-navigation{
+    width: 100%;
+}
+.drawerNav__btn{
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.drawerNav__btn span {
+    display: block;
+    width: 2.5rem;
+    height: 3px;
+    background: white;
+  }
+
+.navbar__drawer-nav{
+    height: 10rem;
+}
+.navbar__header-nav{
+    display: none;
+}
+.main-header{
+    height: 5rem;
+    
+}
+@media (min-width:768px) {
+    .main-navigation{
+        width: 80%;
+        border-bottom: 1px solid white;
+    }
+    .main-header{
+        display: flex;
+    align-items: center;
+    }
+    .navbar__header-nav{
+        display: block;
+    }
+    .drawerNav__btn{
+        display: none;
+    }
+}
